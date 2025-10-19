@@ -1,0 +1,20 @@
+desktop-image: "background.png"
+title-font: "font.pf2"
+
++boot_menu {
+    left = 100
+    top = 255
+    width = 750
+    height = 680
+    item_height = 45
+    item_padding = 10
+
+    # Цвета текста
+    item_color = "#bbbbbb"
+    selected_item_color = "#FFFFFF"
+
+    # Цвета выделения
+    selected_item_bg_color = "#333333"
+    selected_item_frame_color = "#FFFFFF"
+    selected_item_frame_thickness = 3
+}
